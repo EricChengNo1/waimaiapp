@@ -1,0 +1,107 @@
+.order-list-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-list{
+    display: flex;
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+}
+
+.order-item-img{
+    width: 130px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+.order-item-info{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #666;
+}
+
+.order-item-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: -1px 1px 1px red;
+    outline: none;
+}
+
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: 1px -1px 1px red;
+    outline: none;
+}
+
+.btn1:hover{
+    background-color: #e74c3c;
+}
+
+.btn1:focus{
+    background-color: #e5e5e5;
+    box-shadow: -1px 1px 1px green;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: #e74c3c;
+}
+
+.btn:focus{
+    background-color: #e5e5e5;
+    box-shadow: 1px -1px 1px green;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    outline: none;
+}
+
+.order-item-button button{
+    border-radius: 6px;
+    outline: white;
+    width: 70px;
+}
+
+.order-item-evaluate{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 5px 10px;
+
+}
+
+.order-item-evaluate textarea{
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    outline: white;
+    width: 100%;
+}
+
+.order-item-evaluate button{
+    width: 50px;
+    background-color: white;
+    border-radius: 6px;
+    outline: white;
+    float: right;
+}

@@ -1,0 +1,17 @@
+.header{
+    background-color: red;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header i{
+    padding-left: 15px
+}
+
+.header span{
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 15px
+}

@@ -1,0 +1,29 @@
+.store-and-buy-style{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.store-and-buy-style a{
+    display: flex;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0a0a05;
+}
+
+.store-and-buy-style a:hover{
+    background-color: #f1f1f1;
+}
+
+.store-and-buy-style a i{
+    padding-right: 5px;
+    color: #999;
+}

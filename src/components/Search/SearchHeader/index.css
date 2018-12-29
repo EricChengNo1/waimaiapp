@@ -1,0 +1,17 @@
+.search-header{
+    box-sizing: border-box;
+    display: flex;
+    background: red;
+    height: 45px;
+    align-items: center;
+}
+
+.search-header-icon{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-header-icon i{
+    text-align: center;
+}

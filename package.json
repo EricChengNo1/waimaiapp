@@ -1,0 +1,38 @@
+{
+  "name": "waimaiapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.6.3",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^16.6.3",
+    "react-modal": "^3.7.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-swipe": "^6.0.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "swipe-js-iso": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1"
+  }
+}

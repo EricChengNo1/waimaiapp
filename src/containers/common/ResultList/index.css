@@ -1,0 +1,10 @@
+.list-title{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.no-more-data{
+    display: flex;
+    justify-content: center;
+    color: #cccccc;
+}

@@ -1,0 +1,12 @@
+.list{
+    margin: 0 auto;
+    display: flex;
+    width: 360px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-title{
+    font-weight: 600;
+    margin-left: 10px;
+}

@@ -1,0 +1,7 @@
+.user-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    background-color: white;
+}

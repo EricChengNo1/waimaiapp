@@ -1,0 +1,21 @@
+.store-and-order-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.store-order-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store-order-item i{
+    color: red;
+    font-size: 20px;
+}
+
+.store-order-item span{
+    font-family: 新宋体;
+    font-weight: 400;
+    font-size: 14px;
+}
